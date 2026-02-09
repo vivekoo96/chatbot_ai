@@ -1,0 +1,43 @@
+--- Analytics Full Audit ---
+Generated At: 2026-01-30 15:00:23
+
+DB Connection: mysql
+DB Database: chatboat
+
+Total Users: 7
+ - User ID: 1 | Email: admin@chatbot.ai | Bots: 1 | Admin: Yes
+ - User ID: 2 | Email: demo@example.com | Bots: 1 | Admin: No
+ - User ID: 3 | Email: admin1768980430503@example.com | Bots: 0 | Admin: No
+ - User ID: 4 | Email: jay158f484@gmail.com | Bots: 0 | Admin: No
+ - User ID: 5 | Email: sweetypatel22950@gmail.com | Bots: 0 | Admin: No
+ - User ID: 6 | Email: jay158484@gmail.com | Bots: 0 | Admin: No
+ - User ID: 7 | Email: ggg@gmail.com | Bots: 0 | Admin: No
+
+Total Chatbots Global: 2
+Total Conversations Global: 61
+Total Messages Global: 127
+
+--- Recent Conversations Inspection ---
+ - Conv ID: 87 | Created: 2026-01-30 12:56:32 | Bot: Customer support | Owner: demo@example.com
+ - Conv ID: 86 | Created: 2026-01-30 12:48:34 | Bot: Customer support | Owner: demo@example.com
+ - Conv ID: 85 | Created: 2026-01-30 07:43:43 | Bot: Customer support | Owner: demo@example.com
+ - Conv ID: 84 | Created: 2026-01-30 07:43:41 | Bot: Customer support | Owner: demo@example.com
+ - Conv ID: 83 | Created: 2026-01-30 07:43:33 | Bot: Customer support | Owner: demo@example.com
+ - Conv ID: 82 | Created: 2026-01-30 06:59:36 | Bot: Customer support | Owner: demo@example.com
+ - Conv ID: 81 | Created: 2026-01-30 06:57:45 | Bot: Customer support | Owner: demo@example.com
+ - Conv ID: 80 | Created: 2026-01-30 06:15:55 | Bot: Customer support | Owner: demo@example.com
+ - Conv ID: 79 | Created: 2026-01-30 05:58:19 | Bot: Customer support | Owner: demo@example.com
+ - Conv ID: 78 | Created: 2026-01-30 04:32:42 | Bot: Customer support | Owner: demo@example.com
+
+--- Query Builder Simulation (Last 30 Days) ---
+Start Date: 2025-12-31 15:00:24
+ - User ID: 1 (admin@chatbot.ai) | Convs (last 30d): 0
+ - User ID: 2 (demo@example.com) | Convs (last 30d): 61
+ - User ID: 3 (admin1768980430503@example.com) | Convs (last 30d): 0
+ - User ID: 4 (jay158f484@gmail.com) | Convs (last 30d): 0
+ - User ID: 5 (sweetypatel22950@gmail.com) | Convs (last 30d): 0
+ - User ID: 6 (jay158484@gmail.com) | Convs (last 30d): 0
+ - User ID: 7 (ggg@gmail.com) | Convs (last 30d): 0
+
+Orphaned Conversations (NULL chatbot_id): 0
+Orphaned Chatbots (NULL user_id): 0
