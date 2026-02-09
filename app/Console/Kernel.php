@@ -13,6 +13,20 @@ class Kernel extends ConsoleKernel
      * Define the application's command schedule.
      */
     protected function schedule(Schedule $schedule): void
+            // ============================================
+            // WEBSITE CRAWLING - Keep RAG knowledge up-to-date
+            // ============================================
+            $schedule->call(function () {
+                \Log::info('[CRON] Website crawling job started');
+                $chatbots = \App\Models\Chatbot::where('is_active', true)->get();
+                foreach ($chatbots as $chatbot) {
+                    if ($chatbot->detected_website_url) {
+                        \Log::info("[CRON] Dispatching CrawlWebsiteJob for chatbot {$chatbot->id} ({$chatbot->detected_website_url})");
+                        \App\Jobs\CrawlWebsiteJob::dispatch($chatbot->id, $chatbot->detected_website_url);
+                    }
+                }
+                \Log::info('[CRON] Website crawling job finished');
+            })->hourly();
     {
         // ============================================
         // QUEUE WORKER - Process jobs every minute
