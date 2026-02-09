@@ -78,10 +78,10 @@ class ChatbotService
             }
 
             if (!$contextOnly) {
-                // No relevant data found, reply with restricted message
+                // No relevant data found, reply with custom message and contact/WhatsApp suggestion
                 return $conversation->messages()->create([
                     'role' => 'assistant',
-                    'content' => 'Sorry, I can only answer questions about this website or its uploaded documents.',
+                    'content' => 'I can only answer questions about this website or its uploaded documents. Please explore our website resources, such as the Help Center, Knowledge Base, or use the contact/WhatsApp options available on this site for further assistance.',
                     'tokens' => 0,
                 ]);
             }

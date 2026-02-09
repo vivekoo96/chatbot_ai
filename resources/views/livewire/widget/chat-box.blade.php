@@ -678,9 +678,8 @@
 
             <!-- Footer -->
             <p class="text-[10px] text-center text-gray-300 pt-1">
-                Powered by <a href="https://hemnix.com/" target="_blank"
-                    class="font-semibold hover:opacity-80 transition-colors" style="color: var(--bot-primary)">Hemnix
-                    Technologies</a>
+                Powered by <a href="https://wisdomweb.co.in/" target="_blank"
+                    class="font-semibold hover:opacity-80 transition-colors" style="color: var(--bot-primary)">WisdomWeb</a>
             </p>
         </form>
     </div>
