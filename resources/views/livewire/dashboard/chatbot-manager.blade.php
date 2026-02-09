@@ -582,6 +582,20 @@
                                     </div>
                                 </div>
 
+                                <!-- Upload Additional Training Data -->
+                                <div class="space-y-8 pt-10 border-t border-slate-100 dark:border-white/5 mb-10">
+                                    <div>
+                                        <label class="block text-[10px] font-black text-slate-500 uppercase tracking-widest mb-3 px-1">
+                                            Add More Training Data (TXT, PDF, DOCX)</label>
+                                        <input type="file" wire:model="training_file" accept=".txt,.pdf,.doc,.docx"
+                                            class="w-full px-6 py-4 bg-slate-50 dark:bg-slate-950/50 border border-slate-200 dark:border-white/5 rounded-2xl focus:ring-4 focus:ring-indigo-500/10 focus:border-indigo-500 transition-all outline-none">
+                                        <p class="mt-3 text-[10px] text-slate-400 font-medium px-1 italic">Upload additional documents to enhance your chatbot's knowledge base. Supported formats: TXT, PDF, DOCX.</p>
+                                        @error('training_file') <span
+                                            class="text-rose-500 text-[10px] mt-2 block font-black">{{ $message }}</span>
+                                        @enderror
+                                    </div>
+                                </div>
+
                                 <!-- Domains & Intelligence Sources -->
                                 <div class="space-y-10 pt-10 border-t border-slate-100 dark:border-white/5">
                                     <div class="grid grid-cols-1 md:grid-cols-2 gap-10">

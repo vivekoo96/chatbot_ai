@@ -255,7 +255,29 @@ class ChatbotManager extends Component
             'auto_crawl_enabled' => $this->auto_crawl_enabled,
         ]);
 
-        $this->reset(['name', 'whatsapp_number', 'system_prompt', 'theme_color', 'allowed_domains', 'website_url', 'auto_crawl_enabled', 'showEditModal', 'editingId']);
+        // Handle training file upload during update
+        if ($this->training_file) {
+            $ext = $this->training_file->getClientOriginalExtension();
+            $content = '';
+            if ($ext === 'txt') {
+                $content = file_get_contents($this->training_file->getRealPath());
+            } elseif ($ext === 'pdf') {
+                // Use a PDF parser library if available
+                // $content = ...
+            } elseif (in_array($ext, ['doc', 'docx'])) {
+                // Use a DOC/DOCX parser library if available
+                // $content = ...
+            }
+            if (!empty($content)) {
+                \App\Models\KnowledgeEntry::create([
+                    'chatbot_id' => $chatbot->id,
+                    'content' => $content,
+                    'category' => 'upload',
+                ]);
+            }
+        }
+
+        $this->reset(['name', 'whatsapp_number', 'system_prompt', 'theme_color', 'allowed_domains', 'website_url', 'auto_crawl_enabled', 'showEditModal', 'editingId', 'training_file']);
         session()->flash('message', 'Chatbot updated successfully!');
     }
 

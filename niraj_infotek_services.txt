@@ -1,0 +1,96 @@
+NIRAJ INFOTEK - PC RENTAL SERVICE & COMPLIANCE SOLUTIONS
+========================================================
+
+Service and Offering
+====================
+
+Q1. What exactly do you provide under "PCs on Rent"?
+We provide business-ready desktops and laptops on rental with Windows 11, MS Office, security suite, data leak prevention, and employee monitoring tools preconfigured, along with ongoing hardware and technical support.
+
+Q2. Who is this PC rental service best suited for?
+We are ideal for SMEs, startups, distributed teams, and compliance-driven organizations that need reliable machines, security, and monitoring without heavy upfront capex.
+
+Q3. What locations do you currently serve?
+We operate out of Chennai (Mount Road) and primarily serve businesses in and around Chennai; for larger projects we can discuss support in other locations.
+
+Compliance, Security and Monitoring
+===================================
+
+Q4. What does "Compliance Ready Machine" mean?
+It means every rented PC comes preloaded with Data Leak Prevention (DLP), employee monitoring, anti malware, and firewall configuration aligned to common IT audit and security requirements.
+
+Q5. How does Data Leak Prevention (DLP) work on your machines?
+DLP policies can monitor and restrict data transfers via USB, email, cloud drives, and print, helping you prevent unauthorized copying or exfiltration of sensitive information.
+
+Q6. Is my business data secure with your monitoring tools?
+Yes, we use enterprise grade encryption and follow standard data protection practices; data ownership always remains with you, and monitoring is focused on security and compliance, not spying.
+
+Q7. Can we customize the monitoring and security policies?
+In most cases we can tune policies such as blocking or allowing USB, setting activity thresholds, and defining what gets logged, based on your internal IT and HR policies.
+
+Hardware, Software and Performance
+=================================
+
+Q8. What hardware configurations do you offer?
+We offer tiered configs such as Core i5 (6th Gen, 8 GB RAM, 256 GB SSD), Core i7 (7th Gen, 16 GB RAM, 512 GB SSD), and higher end Core i7/i9 with up to 32 GB RAM and 2 TB SSD for enterprise workloads.
+
+Q9. Do the rented PCs come with Windows and Office pre-installed?
+Yes, all systems are delivered with Windows 11 and MS Office preinstalled so your team can start working from day one.
+
+Q10. Do you also provide Apple Mac and peripherals on rent?
+Yes, we rent Apple iMac, MacBook Pro, MacBook Air with M series chips, as well as monitors (including 4K/ultrawide), keyboards, mice, docking stations, and other accessories.
+
+Q11. Can we upgrade our hardware during the contract?
+You can upgrade to more powerful machines at any time; we simply revise the monthly rental based on the new configuration.
+
+Pricing, Plans and Contracts
+============================
+
+Q12. How does your pricing work?
+Pricing is per PC per month with structured plans like Starter (around ₹500/month/PC), Business (₹2,000/month/PC), and custom enterprise quotes, depending on configuration and security stack.
+
+Q13. What is the minimum contract term?
+The usual minimum term is 12 months, with flexible options and the ability to continue month to month extensions after the initial period.
+
+Q14. Are there hidden charges such as maintenance or support fees?
+No, standard hardware support, security updates, and technical assistance are bundled into the rental; any special onsite project work can be scoped separately if required.
+
+Q15. Can you customize a plan for our specific needs?
+Yes, for enterprise requirements we create a tailored configuration, security stack, and commercial proposal based on your use cases and compliance needs.
+
+Support, Maintenance and Lifecycle
+==================================
+
+Q16. What kind of technical support do you provide?
+We provide both remote and onsite support for hardware issues, OS/software troubleshooting, and security policy adjustments during business hours.
+
+Q17. Who takes care of security and software updates?
+We manage periodic OS, security, and monitoring tool updates so all rented machines remain compliant and protected without adding load on your in house IT team.
+
+Q18. What happens if a system fails or a part needs replacement?
+In case of hardware issues, our team repairs or swaps the unit as per SLA so your downtime remains minimal.
+
+Q19. What happens at the end of the contract?
+You can renew with the same machines, upgrade to newer models, increase or decrease the fleet size, or simply return the systems if you no longer need them.
+
+Onboarding and Getting Started
+==============================
+
+Q20. How do we get started with Niraj Infotek rentals?
+You can fill the contact form on the site, email, call, or WhatsApp us with your requirements; we then analyze your needs and share a customized proposal and rollout plan.
+
+Q21. Do you provide training for the monitoring and compliance tools?
+Yes, we train your admins and managers on how to use dashboards, reports, and alerts so they can effectively leverage the tools for productivity and compliance.
+
+Q22. How quickly can you deploy systems once we approve the quote?
+Lead time depends on quantity and configuration, but for standard configs we can typically provision and deliver machines in a short time window agreed during scoping.
+
+Q23. What are your business hours for support and contact?
+We are available Monday to Saturday, 10:30 AM to 5:30 PM, via phone, email, and WhatsApp from our Mount Road, Chennai office.
+
+Key Contact Information
+=======================
+Location: Mount Road, Chennai
+Hours: Monday to Saturday, 10:30 AM to 5:30 PM
+Contact: Phone, Email, WhatsApp
+Service Area: Chennai and surrounding regions
